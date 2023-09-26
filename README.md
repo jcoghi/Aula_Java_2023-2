@@ -19,7 +19,7 @@
 <tbody>
 <tr>
 <td align="center">21/08</td>
-<td align="center"><a hfer="https://github.com/jcoghi/Aula_Java_2023-2/tree/main/aula0821"><button>Clique Aqui</button></a></td>
+<td align="center"><a href="https://github.com/jcoghi/Aula_Java_2023-2/tree/main/aula0821">Clique Aqui</a></td>
 <td align="center">Introdução à programação Java</td>
 <td align="center">1</td>
 </tr>

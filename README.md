@@ -25,19 +25,19 @@
 </tr>
 <tr>
 <td align="center">22/08</td>
-<td align="center">[Clique Aqui](https://github.com/jcoghi/Aula_Java_2023-2/tree/main/aula0822)</td>
+<td align="center"><a href="https://github.com/jcoghi/Aula_Java_2023-2/tree/main/aula0822">Clique Aqui</a></td>
 <td align="center">Começando a trabalhar com os tipos primitivos, operações e expressões matemáticas</td>
 <td align="center">5</td>
 </tr>
 <tr>
 <td align="center">28/08</td>
-<td align="center"><a hfer="https://github.com/jcoghi/Aula_Java_2023-2/tree/main/aula0828"><button>Clique Aqui</button></a></td>
+<td align="center"><a href="https://github.com/jcoghi/Aula_Java_2023-2/tree/main/aula0828">Clique Aqui</a></td>
 <td align="center">Continuação da aula anterior, mas utilizando Scanner</td>
 <td align="center">6</td>
 </tr>
 <tr>
 <td align="center">04/09</td>
-<td align="center"><a hfer="https://github.com/jcoghi/Aula_Java_2023-2/tree/main/aula0904"><button>Clique Aqui</button></a></td>
+<td align="center"><a href="https://github.com/jcoghi/Aula_Java_2023-2/tree/main/aula0904"><button>Clique Aqui</button></a></td>
 <td align="center">Introdução à lógica condicional <strong><em>if</em></strong>, <strong><em>else if</em></strong> e <strong><em>if, else </em></strong></td>
 <td align="center">4</td>
 </tr>

@@ -25,7 +25,7 @@
 </tr>
 <tr>
 <td align="center">22/08</td>
-<td align="center"><a hfer="https://github.com/jcoghi/Aula_Java_2023-2/tree/main/aula0822"><button>Clique Aqui</button></a></td>
+<td align="center">[Clique Aqui](https://github.com/jcoghi/Aula_Java_2023-2/tree/main/aula0822)</td>
 <td align="center">Começando a trabalhar com os tipos primitivos, operações e expressões matemáticas</td>
 <td align="center">5</td>
 </tr>

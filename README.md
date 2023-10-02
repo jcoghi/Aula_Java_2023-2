@@ -83,6 +83,12 @@
 <td align="center">Introdução ao conceito de vetores bidimensionais</td>
 <td align="center">3</td>
 </tr>
+<tr>
+<td align="center">02/10</td>
+<td align="center"><a href="https://github.com/jcoghi/Aula_Java_2023-2/tree/main/aula1002"><button>Clique Aqui</button></a></td>
+<td align="center">Exercícios de vetores bidimensionais e introdução lógica funcional</td>
+<td align="center">4</td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -163,6 +169,14 @@
 <tr>
 <td align="center"><a href="https://github.com/jcoghi/Aula_Java_2023-2/blob/main/Material/ListaString.pdf"><button>Clique Aqui</button></a></td>
 <td align="center">Lista <strong><em>String</em></strong></td>
+</tr>
+<tr>
+<td align="center"><a href="https://github.com/jcoghi/Aula_Java_2023-2/blob/main/Material/ListaVetores.pdf"><button>Clique Aqui</button></a></td>
+<td align="center">Lista <strong><em>Vetores</em></strong></td>
+</tr>
+<tr>
+<td align="center"><a href="https://github.com/jcoghi/Aula_Java_2023-2/blob/main/Material/ListaDesafios.pdf"><button>Clique Aqui</button></a></td>
+<td align="center"><strong><em>Primeiros Desafios</em></strong></td>
 </tr>
 </tbody>
 </table>

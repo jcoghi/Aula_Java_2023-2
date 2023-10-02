@@ -1,5 +1,7 @@
+<div>
 ## Arquivos das aulas de Java
 #### Aqui você econtrará todos os códigos, listas e materais apresentados ao longo do semestre.
+</div>
 <div>
 <img height="150em" src="https://github-readme-stats.vercel.app/api?username=jcoghi&theme=dracula"/>
 

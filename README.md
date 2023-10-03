@@ -91,6 +91,12 @@
 <td align="center">Exercícios de vetores bidimensionais e introdução lógica funcional</td>
 <td align="center">4</td>
 </tr>
+<tr>
+<td align="center">03/10</td>
+<td align="center"><a href="https://github.com/jcoghi/Aula_Java_2023-2/tree/main/aula1003"><button>Clique Aqui</button></a></td>
+<td align="center">Exercícios de vetores bidimensionais e introdução lógica funcional</td>
+<td align="center">8</td>
+</tr>
 </tbody>
 </table>
 </div>

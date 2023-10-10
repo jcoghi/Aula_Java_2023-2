@@ -4,19 +4,23 @@
  */
 package aula1003;
 
+import java.util.Scanner;
+
 /**
- *
  * @author joaof
  */
 public class Exemplo08 {
     // 0,1,1,2,3,5,8,13....
-    public static int fibo(int n) {
-        if (n == 0) {
-            return 0;
-        } else if (n == 1) {
-            return 1;
-        }
-        return fibo(n - 1) + fibo(n - 2);
+    public static int[] entradas() {
+        Scanner teclado = new Scanner(System.in);
+        int[] entradas = new int[2];
+        
+        System.out.println("Valor 1:");
+        entradas[0] = teclado.nextInt();
+        System.out.println("Valor 2:");
+        entradas[1] = teclado.nextInt();
+        
+        return entradas;
     }
     
     public static void main(String[] args) {

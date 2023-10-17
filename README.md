@@ -39,63 +39,93 @@
 </tr>
 <tr>
 <td align="center">04/09</td>
-<td align="center"><a href="https://github.com/jcoghi/Aula_Java_2023-2/tree/main/aula0904"><button>Clique Aqui</button></a></td>
+<td align="center"><a href="https://github.com/jcoghi/Aula_Java_2023-2/tree/main/aula0904">Clique Aqui</a></td>
 <td align="center">Introdução à lógica condicional <strong><em>if</em></strong>, <strong><em>else if</em></strong> e <strong><em>if, else </em></strong></td>
 <td align="center">4</td>
 </tr>
 <tr>
 <td align="center">05/09</td>
-<td align="center"><a href="https://github.com/jcoghi/Aula_Java_2023-2/tree/main/aula0905"><button>Clique Aqui</button></a></td>
+<td align="center"><a href="https://github.com/jcoghi/Aula_Java_2023-2/tree/main/aula0905">Clique Aqui</a></td>
 <td align="center">Continuando lógica condicional, mas introduzindo a lógica relacional.<br>Também, começamos a ver <strong><em>try catch</em></strong> para tratamento de erros</td>
 <td align="center">7</td>
 </tr>
 <tr>
 <td align="center">11/09</td>
-<td align="center"><a href="https://github.com/jcoghi/Aula_Java_2023-2/tree/main/aula0911"><button>Clique Aqui</button></a></td>
+<td align="center"><a href="https://github.com/jcoghi/Aula_Java_2023-2/tree/main/aula0911">Clique Aqui</a></td>
 <td align="center">Continuando lógica condicional, mas utilizando <strong><em>switch case</em><strong></td>
 <td align="center">5</td>
 </tr>
 <tr>
 <td align="center">12/09</td>
-<td align="center"><a href="https://github.com/jcoghi/Aula_Java_2023-2/tree/main/aula0912"><button>Clique Aqui</button></a></td>
+<td align="center"><a href="https://github.com/jcoghi/Aula_Java_2023-2/tree/main/aula0912">Clique Aqui</a></td>
 <td align="center">Introdução à lógica de laços de repetição com <strong><em>for</em><strong></td>
 <td align="center">5</td>
 </tr>
 <tr>
 <td align="center">18/09</td>
-<td align="center"><a href="https://github.com/jcoghi/Aula_Java_2023-2/tree/main/aula0918"><button>Clique Aqui</button></a></td>
+<td align="center"><a href="https://github.com/jcoghi/Aula_Java_2023-2/tree/main/aula0918">Clique Aqui</a></td>
 <td align="center">Introdução à lógica de laços de repetição com <strong><em>while</em><strong></td>
 <td align="center">7</td>
 </tr>
 <tr>
 <td align="center">19/09</td>
-<td align="center"><a href="https://github.com/jcoghi/Aula_Java_2023-2/tree/main/aula0919"><button>Clique Aqui</button></a></td>
+<td align="center"><a href="https://github.com/jcoghi/Aula_Java_2023-2/tree/main/aula0919">Clique Aqui</a></td>
 <td align="center">Continuação à lógica de laços de repetição com <strong><em>while</em><strong></td>
 <td align="center">4</td>
 </tr>
 <tr>
 <td align="center">25/09</td>
-<td align="center"><a href="https://github.com/jcoghi/Aula_Java_2023-2/tree/main/aula0925"><button>Clique Aqui</button></a></td>
+<td align="center"><a href="https://github.com/jcoghi/Aula_Java_2023-2/tree/main/aula0925">Clique Aqui</a></td>
 <td align="center">Introdução ao conceito de vetores unidimensionais</td>
 <td align="center">6</td>
 </tr>
 <tr>
 <td align="center">26/09</td>
-<td align="center"><a href="https://github.com/jcoghi/Aula_Java_2023-2/tree/main/aula0926"><button>Clique Aqui</button></a></td>
+<td align="center"><a href="https://github.com/jcoghi/Aula_Java_2023-2/tree/main/aula0926">Clique Aqui</a></td>
 <td align="center">Introdução ao conceito de vetores bidimensionais</td>
 <td align="center">3</td>
 </tr>
 <tr>
 <td align="center">02/10</td>
-<td align="center"><a href="https://github.com/jcoghi/Aula_Java_2023-2/tree/main/aula1002"><button>Clique Aqui</button></a></td>
+<td align="center"><a href="https://github.com/jcoghi/Aula_Java_2023-2/tree/main/aula1002">Clique Aqui</a></td>
 <td align="center">Exercícios de vetores bidimensionais e introdução lógica funcional</td>
 <td align="center">4</td>
 </tr>
 <tr>
 <td align="center">03/10</td>
-<td align="center"><a href="https://github.com/jcoghi/Aula_Java_2023-2/tree/main/aula1003"><button>Clique Aqui</button></a></td>
+<td align="center"><a href="https://github.com/jcoghi/Aula_Java_2023-2/tree/main/aula1003">Clique Aqui</a></td>
 <td align="center">Exercícios de vetores bidimensionais e introdução lógica funcional</td>
 <td align="center">8</td>
+</tr>
+<tr>
+<td align="center">09/10</td>
+<td align="center"><a href="https://github.com/jcoghi/Aula_Java_2023-2/tree/main/aula1009">Clique Aqui</a></td>
+<td align="center">Exercício função recursiva e Introdução a POO (Carro e Catálogo de Carros). </td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">09/10</td>
+<td align="center"><a href="https://github.com/jcoghi/Aula_Java_2023-2/tree/main/aula1009">Clique Aqui</a></td>
+<td align="center">Exercício função recursiva e POO - Classe e Objeto. </td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">10/10</td>
+<td align="center"><a href="https://github.com/jcoghi/Aula_Java_2023-2/tree/main/aula1010">Clique Aqui</a></td>
+<td align="center">POO - Construtor e Encapsulamento</td>
+<td align="center">4</td>
+</tr>
+<tr>
+<td align="center">16/10</td>
+<td align="center"><a href="https://github.com/jcoghi/Aula_Java_2023-2/tree/main/aula1016">Clique Aqui</a></td>
+<td align="center">POO - Encapsulamento, Sobrecarga e Sobrescrita de métodos, Heranças</td>
+<td align="center">4</td>
+</tr>
+<tr>
+<td align="center">17/10</td>
+<td align="center"><a href="https://github.com/jcoghi/Aula_Java_2023-2/tree/main/aula1017">Clique Aqui</a></td>
+<td align="center">POO - Encapsulamento, Sobrecarga e Sobrescrita de métodos, Heranças, Padrões e JavaDoc</td>
+<td align="center">1</td>
 </tr>
 </tbody>
 </table>

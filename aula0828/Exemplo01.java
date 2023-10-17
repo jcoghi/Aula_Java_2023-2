@@ -2,10 +2,9 @@
 package aula0828;
 
 import java.util.Calendar;
-
-
-
-public class Exemplo01 {
+/**
+ * @author prof. João Felipe Coghi
+ */public class Exemplo01 {
 
     public static void main(String[] args) {
         

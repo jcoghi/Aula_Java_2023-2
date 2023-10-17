@@ -3,7 +3,9 @@
 */
 
 package aula0912;
-
+/**
+ * @author prof. João Felipe Coghi
+ */
 public class Exemplo03 {
 
     public static void main(String[] args) {

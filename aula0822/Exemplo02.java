@@ -2,7 +2,9 @@
 package aula0822;
 
 import javax.swing.JOptionPane;
-
+/**
+ * @author prof. João Felipe Coghi
+ */
 public class Exemplo02 {
     public static void main(String[] args) {
         

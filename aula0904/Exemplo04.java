@@ -5,7 +5,9 @@ DEVE OU NÃO SE ALISTAR NO EXÉRCITO.
 package aula0904;
 
 import java.util.Scanner;
-
+/**
+ * @author prof. João Felipe Coghi
+ */
 public class Exemplo04 {
 
     public static void main(String[] args) {

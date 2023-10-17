@@ -25,7 +25,9 @@
 package aula0919;
 
 import java.util.Scanner;
-
+/**
+ * @author prof. João Felipe Coghi
+ */
 public class Exemplo04 {
 
     public static void main(String[] args) {

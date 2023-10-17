@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 /**
- * @author joaof
+ * @author prof. João Felipe Coghi
  */
 public class Exemplo04 {
    

@@ -7,7 +7,9 @@ package aula0919;
 
 import java.util.Random;
 import java.util.Scanner;
-
+/**
+ * @author prof. João Felipe Coghi
+ */
 public class Exemplo01 {
 
     public static void main(String[] args) {

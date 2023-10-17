@@ -1,6 +1,8 @@
 /* FAZER A SOMA DE DOIS NÚMEROS INTEIROS*/
 package aula0822;
-
+/**
+ * @author prof. João Felipe Coghi
+ */
 public class Exemplo01 {
     public static void main(String[] args) {
         

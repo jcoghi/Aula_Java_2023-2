@@ -8,8 +8,7 @@ import java.util.Arrays;
 import java.util.Random;
 
 /**
- *
- * @author joaof
+ * @author prof. João Felipe Coghi
  */
 public class Exercicio03 {
 
@@ -31,10 +30,10 @@ public class Exercicio03 {
 //        System.out.println(Arrays.deepToString(m1) +
 //                " + " + Arrays.deepToString(m2) + " = " + 
 //                Arrays.deepToString(soma));
-        
+
         System.out.println(Arrays.toString(m1[0]) + " + " + Arrays.toString(m2[0]));
         System.out.println(Arrays.toString(m1[1]) + "   " + Arrays.toString(m2[1]));
-        
+
     }
 
 }

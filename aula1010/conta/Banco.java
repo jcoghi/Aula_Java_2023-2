@@ -3,7 +3,7 @@ package aula1010.conta;
 import java.util.Scanner;
 
 /**
- * @author joaof
+ * @author prof. João Felipe Coghi
  */
 public class Banco {
 
@@ -13,7 +13,7 @@ public class Banco {
         Conta joao = new Conta(100, "João");
         Conta miguel = new Conta(1000, "Miguel");
         boolean ligado = true;
-        
+
         while (ligado) {
             try {
                 System.out.println("""
@@ -67,7 +67,7 @@ public class Banco {
                 }
             } catch (Exception e) {
                 System.out.println("Oção inválida");
-            }   
+            }
         }
 
     }

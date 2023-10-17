@@ -1,6 +1,8 @@
 
 package aula1002;
-
+/**
+ * @author prof. João Felipe Coghi
+ */
 public class Exemplo04 {
 
     public static void main(String[] args) {

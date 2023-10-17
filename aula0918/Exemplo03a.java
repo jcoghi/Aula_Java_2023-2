@@ -2,7 +2,9 @@
  * NÚMEROS PARES DE 0 ATÉ 100 -> condição booleana
  */
 package aula0918;
-
+/**
+ * @author prof. João Felipe Coghi
+ */
 public class Exemplo03a {
 
     public static void main(String[] args) {

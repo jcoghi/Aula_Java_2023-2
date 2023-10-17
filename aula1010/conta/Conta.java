@@ -1,7 +1,7 @@
 package aula1010.conta;
 
 /**
- * @author joaof
+ * @author prof. João Felipe Coghi
  */
 public class Conta {
 
@@ -15,33 +15,32 @@ public class Conta {
         this.saldo = saldo;
         this.dono = dono;
     }
-   
+
     // MÉTODOS
-    
     public int getNumBanco() {
         return numBanco;
     }
-    
+
     public void setNumBanco(int novoNumero) {
         numBanco = novoNumero;
     }
-    
+
     public String getDono() {
         return dono;
     }
-    
+
     public int getNumConta() {
         return numConta;
     }
-    
+
     public float getSaldo() {
         return saldo;
     }
-    
+
     public void deposito(float valor) {
         saldo += valor;
     }
-    
+
     // Só pode sacar até o saldo da conta
     public boolean saque(float valor) {
         if (saldo >= valor) {
@@ -52,8 +51,8 @@ public class Conta {
     }
 
     String mensagem = (saque(50)) ? "" : "";
-    
-    public boolean tranfere(Conta destinatario ,float valor) {
+
+    public boolean tranfere(Conta destinatario, float valor) {
         if (this.saldo >= valor) {
             saldo -= valor;
             destinatario.saldo += valor;
@@ -61,6 +60,5 @@ public class Conta {
         }
         return false;
     }
-    
-    
+
 }

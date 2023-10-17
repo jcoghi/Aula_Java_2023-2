@@ -2,7 +2,9 @@ package aula0925;
 
 import java.util.Arrays;
 import java.util.Random;
-
+/**
+ * @author prof. João Felipe Coghi
+ */
 public class Exemplo02 {
 
     public static void main(String[] args) {

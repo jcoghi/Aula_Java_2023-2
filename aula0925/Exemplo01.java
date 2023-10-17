@@ -1,7 +1,9 @@
 package aula0925;
 
 import java.util.Random;
-
+/**
+ * @author prof. João Felipe Coghi
+ */
 public class Exemplo01 {
 
     public static void main(String[] args) {

@@ -9,34 +9,33 @@ import java.util.Arrays;
 import java.util.Random;
 
 /**
- *
- * @author joaof
+ * @author prof. João Felipe Coghi
  */
 public class Exercicio01 {
-    
+
     public static void main(String[] args) {
-        
-        Random gerador = new Random();  
+
+        Random gerador = new Random();
         int[] numeros = new int[500];
         int pares = 0;
         int impares = 0;
-        
-        for (int a  = 0; a < numeros.length; a++) {
-            numeros[a] = gerador.nextInt(996)+5;
+
+        for (int a = 0; a < numeros.length; a++) {
+            numeros[a] = gerador.nextInt(996) + 5;
         }
-        
+
         for (int numero : numeros) {
-            
+
             if (numero % 2 == 0) {
                 pares++;
             } else {
                 impares++;
             }
-            
+
         }
-        
+
         System.out.printf("São %d números pares \n", pares);
         System.out.printf("São %d números ímpares \n", impares);
     }
-    
+
 }

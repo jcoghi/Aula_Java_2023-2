@@ -5,7 +5,9 @@ package aula0905;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
-
+/**
+ * @author prof. João Felipe Coghi
+ */
 public class Exemplo03 {
 
     public static void main(String[] args) {

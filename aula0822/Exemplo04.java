@@ -1,10 +1,9 @@
-/* 
-
-*/
 package aula0822;
 
 import java.util.Scanner;
-
+/**
+ * @author prof. João Felipe Coghi
+ */
 public class Exemplo04 {
     
     public static void main(String[] args) {

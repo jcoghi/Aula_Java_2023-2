@@ -3,7 +3,9 @@
    NÃO PODE USAR O OPERADOR %
 */
 package aula0822;
-
+/**
+ * @author prof. João Felipe Coghi
+ */
 public class Exemplo03 {
     
     public static void main(String[] args) {

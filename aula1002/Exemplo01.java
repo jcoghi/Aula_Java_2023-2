@@ -7,7 +7,9 @@ package aula1002;
 import java.util.Arrays;
 import java.util.Random;
 
-
+/**
+ * @author prof. João Felipe Coghi
+ */
 public class Exemplo01 {
 
     public static void main(String[] args) {
@@ -16,13 +18,13 @@ public class Exemplo01 {
         boolean negativo;
         int numero;
         int[][] matriz = new int[3][3];
-        int[][] matrizOposta = new int[3][3] ;
-        
+        int[][] matrizOposta = new int[3][3];
+
         for (int lin = 0; lin < matriz.length; lin++) {
             for (int col = 0; col < matriz[0].length; col++) {
                 numero = gerador.nextInt(11);
                 negativo = gerador.nextBoolean();
-                
+
                 if (!negativo) {
                     matriz[lin][col] = numero;
                     matrizOposta[lin][col] = -numero;
@@ -32,11 +34,10 @@ public class Exemplo01 {
                 }
             }
         }
-        
+
         System.out.println(Arrays.deepToString(matriz));
         System.out.println(Arrays.deepToString(matrizOposta));
-        
-        
+
     }
 
 }

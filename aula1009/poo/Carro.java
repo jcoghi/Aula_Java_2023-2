@@ -1,9 +1,10 @@
 package aula1009.poo;
 
 /**
- * @author joaof
+ * @author prof. João Felipe Coghi
  */
 public class Carro {
+
     //ATRIBUTOS
     public final int RODAS = 4;
     public String marca;
@@ -12,10 +13,9 @@ public class Carro {
     public int porta = 2;
     public double valor = 100000;
     public double motor;
-    
+
     //CONSTRUTOR
-    public Carro
-        (String marca, String modelo, double motor) {
+    public Carro(String marca, String modelo, double motor) {
         this.marca = marca;
         this.modelo = modelo;
         this.motor = motor;

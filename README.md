@@ -125,7 +125,25 @@
 <td align="center">17/10</td>
 <td align="center"><a href="https://github.com/jcoghi/Aula_Java_2023-2/tree/main/aula1017">Clique Aqui</a></td>
 <td align="center">POO - Encapsulamento, Sobrecarga e Sobrescrita de métodos, Heranças, Padrões e JavaDoc</td>
-<td align="center">1</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">23/10</td>
+<td align="center"><a href="https://github.com/jcoghi/Aula_Java_2023-2/tree/main/aula1023">Clique Aqui</a></td>
+<td align="center">POO - Polimorfismo</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">24/10</td>
+<td align="center"><a href="https://github.com/jcoghi/Aula_Java_2023-2/tree/main/aula1024">Clique Aqui</a></td>
+<td align="center">POO - Enum, Classe interface e Introcução à GUI</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">30/10</td>
+<td align="center"><a href="https://github.com/jcoghi/Aula_Java_2023-2/tree/main/aula1030">Clique Aqui</a></td>
+<td align="center">GUI - Exercícios + Layout Absolute + Layout Grid</td>
+<td align="center">3</td>
 </tr>
 </tbody>
 </table>
@@ -206,11 +224,11 @@
 </tr>
 <tr>
 <td align="center"><a href="https://github.com/jcoghi/Aula_Java_2023-2/blob/main/Material/ListaString.pdf"><button>Clique Aqui</button></a></td>
-<td align="center">Lista <strong><em>String</em></strong></td>
+<td align="center">Lista sobre <strong><em>String</em></strong></td>
 </tr>
 <tr>
 <td align="center"><a href="https://github.com/jcoghi/Aula_Java_2023-2/blob/main/Material/ListaVetores.pdf"><button>Clique Aqui</button></a></td>
-<td align="center">Lista <strong><em>Vetores</em></strong></td>
+<td align="center">Lista sobre <strong><em>Vetores</em></strong></td>
 </tr>
 <tr>
 <td align="center"><a href="https://github.com/jcoghi/Aula_Java_2023-2/blob/main/Material/ListaDesafios.pdf"><button>Clique Aqui</button></a></td>
@@ -218,4 +236,16 @@
 </tr>
 </tbody>
 </table>
+</div>
+<div>
+	<h2>Termo da A3</h2>
+	<p>Conforme informado em sala de aula, vocês devem desenvolver um software de gestão (vendas, adm,...) de um comércio de produtos ou prestação de servicço.</p><br>
+	<p>Este programa deve, necessariamente, conter interface gráfica, gestão de telas, CRUD com banco de dados.</p><br>
+	<h3>Condições:</h3>
+	<ul>
+		<li>Projeto em dupla</li>
+		<li>O programa deve funcionar</li>
+		<li>A dupla apresentará seu programa em <em>sala de aula presencialmente</em> <strong>no dia 04/12</strong></li>
+	</ul>
+
 </div>

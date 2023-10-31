@@ -145,6 +145,12 @@
 <td align="center">GUI - Exercícios + Layout Absolute + Layout Grid</td>
 <td align="center">3</td>
 </tr>
+<tr>
+<td align="center">31/10</td>
+<td align="center"><a href="https://github.com/jcoghi/Aula_Java_2023-2/tree/main/aula1031">Clique Aqui</a></td>
+<td align="center">GUI - JDialog e JFrame</td>
+<td align="center">2</td>
+</tr>
 </tbody>
 </table>
 </div>

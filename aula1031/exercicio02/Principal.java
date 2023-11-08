@@ -1,8 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
 package aula1031.exercicio02;
+
+import java.awt.event.KeyEvent;
 
 /**
  *
@@ -34,18 +32,26 @@ public class Principal extends javax.swing.JFrame {
         ckbMussarela = new javax.swing.JCheckBox();
         ckbCheddar = new javax.swing.JCheckBox();
         ckbBrie = new javax.swing.JCheckBox();
+        jPanel3 = new javax.swing.JPanel();
+        btnTotal = new javax.swing.JButton();
+        btnSair = new javax.swing.JButton();
+        lblTotal = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Hamburgueria do Jão");
+        setResizable(false);
 
-        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder("Blend"));
+        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Blends", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.ABOVE_TOP));
+        jPanel1.setLayout(new java.awt.GridLayout(3, 1, 15, 10));
 
+        rdbCostela.setMnemonic(KeyEvent.VK_C);
         rdbCostela.setText("Costela");
         rdbCostela.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 rdbCostelaActionPerformed(evt);
             }
         });
+        jPanel1.add(rdbCostela);
 
         rdbPicanha.setText("Picanha");
         rdbPicanha.addActionListener(new java.awt.event.ActionListener() {
@@ -53,6 +59,7 @@ public class Principal extends javax.swing.JFrame {
                 rdbPicanhaActionPerformed(evt);
             }
         });
+        jPanel1.add(rdbPicanha);
 
         rdbTradicional.setSelected(true);
         rdbTradicional.setText("Tradicional");
@@ -61,83 +68,85 @@ public class Principal extends javax.swing.JFrame {
                 rdbTradicionalActionPerformed(evt);
             }
         });
+        jPanel1.add(rdbTradicional);
 
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(rdbCostela)
-                    .addComponent(rdbPicanha)
-                    .addComponent(rdbTradicional))
-                .addContainerGap(23, Short.MAX_VALUE))
-        );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(17, 17, 17)
-                .addComponent(rdbCostela)
-                .addGap(17, 17, 17)
-                .addComponent(rdbPicanha)
-                .addGap(18, 18, 18)
-                .addComponent(rdbTradicional)
-                .addContainerGap(32, Short.MAX_VALUE))
-        );
-
-        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder("Queijo"));
+        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Queijos", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.ABOVE_TOP));
+        jPanel2.setLayout(new java.awt.GridLayout(3, 1, 0, 10));
 
         ckbMussarela.setSelected(true);
         ckbMussarela.setText("Mussarela");
+        ckbMussarela.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ckbMussarelaActionPerformed(evt);
+            }
+        });
+        jPanel2.add(ckbMussarela);
 
         ckbCheddar.setText("Cheddar");
+        ckbCheddar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ckbCheddarActionPerformed(evt);
+            }
+        });
+        jPanel2.add(ckbCheddar);
 
         ckbBrie.setText("Brie Empanado");
+        ckbBrie.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ckbBrieActionPerformed(evt);
+            }
+        });
+        jPanel2.add(ckbBrie);
 
-        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
-        jPanel2.setLayout(jPanel2Layout);
-        jPanel2Layout.setHorizontalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(ckbMussarela, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(ckbBrie, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(ckbCheddar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap(19, Short.MAX_VALUE))
-        );
-        jPanel2Layout.setVerticalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGap(16, 16, 16)
-                .addComponent(ckbMussarela)
-                .addGap(16, 16, 16)
-                .addComponent(ckbCheddar)
-                .addGap(16, 16, 16)
-                .addComponent(ckbBrie)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
+        jPanel3.setLayout(new java.awt.GridLayout(1, 2, 15, 0));
+
+        btnTotal.setText("Total a pagar");
+        btnTotal.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnTotalActionPerformed(evt);
+            }
+        });
+        jPanel3.add(btnTotal);
+
+        btnSair.setMnemonic(KeyEvent.VK_S);
+        btnSair.setText("Sair");
+        btnSair.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnSairActionPerformed(evt);
+            }
+        });
+        jPanel3.add(btnSair);
+
+        lblTotal.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        lblTotal.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Total:", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.BELOW_TOP));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
-                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(lblTotal, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jPanel3, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
+                        .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 154, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, 153, Short.MAX_VALUE)))
+                .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap(182, Short.MAX_VALUE))
+                    .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(lblTotal, javax.swing.GroupLayout.DEFAULT_SIZE, 128, Short.MAX_VALUE)
+                .addContainerGap())
         );
 
         pack();
@@ -145,30 +154,94 @@ public class Principal extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void rdbCostelaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbCostelaActionPerformed
-        
-        if (rdbCostela.isSelected()) {
-            rdbCostela.setSelected(true);
-            rdbPicanha.setSelected(false);
-            rdbTradicional.setSelected(false);
-        }
-        
+        controleSelecao("costela");
     }//GEN-LAST:event_rdbCostelaActionPerformed
 
     private void rdbPicanhaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbPicanhaActionPerformed
-        if (rdbPicanha.isSelected()) {
-            rdbCostela.setSelected(false);
-            rdbPicanha.setSelected(true);
-            rdbTradicional.setSelected(false);
-        }
+        controleSelecao("picanha");
     }//GEN-LAST:event_rdbPicanhaActionPerformed
 
     private void rdbTradicionalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rdbTradicionalActionPerformed
-        if (rdbTradicional.isSelected()) {
-            rdbCostela.setSelected(false);
-            rdbPicanha.setSelected(false);
-            rdbTradicional.setSelected(true);
-        }
+        controleSelecao("tradicional");
     }//GEN-LAST:event_rdbTradicionalActionPerformed
+
+    private void btnSairActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSairActionPerformed
+        System.exit(0);
+    }//GEN-LAST:event_btnSairActionPerformed
+
+    private void btnTotalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnTotalActionPerformed
+
+        double blend, queijo;
+        String blendFinal, queijoFinal;
+
+        if (rdbCostela.isSelected()) {
+            blend = 15;
+            blendFinal = "Costela";
+        } else if (rdbPicanha.isSelected()) {
+            blend = 25;
+            blendFinal = "Picanha";
+        } else {
+            blend = 10;
+            blendFinal = "Tradicional";
+        }
+
+        if (ckbMussarela.isSelected()) {
+            queijo = 5;
+            queijoFinal = "Mussarela";
+        } else if (ckbCheddar.isSelected()) {
+            queijo = 8;
+            queijoFinal = "Cheddar";
+        } else {
+            queijo = 10;
+            queijoFinal = "Brie";
+        }
+
+        lblTotal.setText("<html><table><tr>"
+                + "<td>" + blendFinal + "\tR$ " + String.valueOf(blend) + "</td></tr>"
+                + "<tr><td>" + queijoFinal + "\tR$ " + String.valueOf(queijo) + "</td>"
+                + "<tr><td><strong>Total: R$" + String.valueOf(blend + queijo) + "</strong></td>"
+                + "</tr></table></html>");
+
+
+    }//GEN-LAST:event_btnTotalActionPerformed
+
+    private void ckbMussarelaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ckbMussarelaActionPerformed
+        ckbMussarela.setSelected(true);
+        ckbCheddar.setSelected(false);
+        ckbBrie.setSelected(false);
+    }//GEN-LAST:event_ckbMussarelaActionPerformed
+
+    private void ckbCheddarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ckbCheddarActionPerformed
+        ckbMussarela.setSelected(false);
+        ckbCheddar.setSelected(true);
+        ckbBrie.setSelected(false);
+    }//GEN-LAST:event_ckbCheddarActionPerformed
+
+    private void ckbBrieActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ckbBrieActionPerformed
+        ckbMussarela.setSelected(false);
+        ckbCheddar.setSelected(false);
+        ckbBrie.setSelected(true);
+    }//GEN-LAST:event_ckbBrieActionPerformed
+
+    private void controleSelecao(String selecao) {
+        switch (selecao) {
+            case "costela" -> {
+                rdbCostela.setSelected(true);
+                rdbPicanha.setSelected(false);
+                rdbTradicional.setSelected(false);
+            }
+            case "picanha" -> {
+                rdbCostela.setSelected(false);
+                rdbPicanha.setSelected(true);
+                rdbTradicional.setSelected(false);
+            }
+            default -> {
+                rdbCostela.setSelected(false);
+                rdbPicanha.setSelected(false);
+                rdbTradicional.setSelected(true);
+            }
+        }
+    }
 
     /**
      * @param args the command line arguments
@@ -206,11 +279,15 @@ public class Principal extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton btnSair;
+    private javax.swing.JButton btnTotal;
     private javax.swing.JCheckBox ckbBrie;
     private javax.swing.JCheckBox ckbCheddar;
     private javax.swing.JCheckBox ckbMussarela;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel3;
+    private javax.swing.JLabel lblTotal;
     private javax.swing.JRadioButton rdbCostela;
     private javax.swing.JRadioButton rdbPicanha;
     private javax.swing.JRadioButton rdbTradicional;

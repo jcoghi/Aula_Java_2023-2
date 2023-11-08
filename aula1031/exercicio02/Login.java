@@ -137,7 +137,7 @@ public class Login extends javax.swing.JFrame {
             principal.setVisible(true);
             setVisible(false);
         }else {
-            JOptionPane.showMessageDialog(rootPane, "Login ou senha inválidos");
+            JOptionPane.showMessageDialog(rootPane, "Login ou senha inválidos","Entrada Invádida",HEIGHT);
         }
         
     }//GEN-LAST:event_btnEntrarActionPerformed

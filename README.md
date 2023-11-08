@@ -151,6 +151,18 @@
 <td align="center">GUI - JDialog e JFrame</td>
 <td align="center">2</td>
 </tr>
+<tr>
+<td align="center">06/11</td>
+<td align="center"><a href="https://github.com/jcoghi/Aula_Java_2023-2/tree/main/aula1106">Clique Aqui</a></td>
+<td align="center">GUI - Elaboração de Frame com abas</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">07/11</td>
+<td align="center"><a href="https://github.com/jcoghi/Aula_Java_2023-2/tree/main/aula1107">Clique Aqui</a></td>
+<td align="center">GUI - Telas de Instalação</td>
+<td align="center">2</td>
+</tr>
 </tbody>
 </table>
 </div>

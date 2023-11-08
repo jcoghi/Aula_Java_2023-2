@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jPanel1" max="32767" attributes="0"/>
+                  <Component id="jPanel2" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jScrollPane1" alignment="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jScrollPane1" alignment="0" pref="191" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="jTextArea1">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="rows" type="int" value="5"/>
+                <Property name="tabSize" type="int" value="6"/>
+                <Property name="text" type="java.lang.String" value="TERMO DE LICEN&#xc7;A DE SOFTWARE (PROGRAMA DE COMPUTADOR)&#xa;&#xa;Que fazem, &#x2026;&#x2026;(raz&#xe3;o social ou denomina&#xe7;&#xe3;o social da LICENCIANTE), estabelecida na&#xa; rua&#x2026;&#x2026;&#x2026;&#x2026;..n&#xba;&#x2026;&#x2026;&#x2026;, na cidade de&#x2026;&#x2026;&#x2026;..Estado&#x2026;CNPJ, neste ato representada por seu &#xa;(s&#xf3;cios gerente ou diretor), senhor &#x2026;.(nome completo, nacionalidade, estado civil,&#xa; profiss&#xe3;o, CPF, identidade  n&#xba; e &#xf3;rg&#xe3;o expedidor, endere&#xe7;o completo), a seguir &#xa;denominada de LICENCIANTE, e &#x2026;..(se pessoa jur&#xed;dica, raz&#xe3;o social ou denomina&#xe7;&#xe3;o &#xa;social, endere&#xe7;o da sede, CNPJ, nome de quem a representa neste ato) (se pessoa f&#xed;sica,&#xa; nome completo, nacionalidade, estado civil,  profiss&#xe3;o, CPF, identidade n&#xba; e &#xf3;rg&#xe3;o expedidor,&#xa; endere&#xe7;o completo), a seguir denominado de LICENCIADO, com a finalidade de constituir&#xa; este TERMO DE LICEN&#xc7;A DE USO E GARANTIA, mediante o seguinte acordo:&#xa;&#xa;PRIMEIRO&#xa;A LICENCIANTE concede ao LICENCIADO o direito de uso de uma c&#xf3;pia do programa de computador,&#xa; denominado&#x2026;.(nome do programa), a seguir denominado simplesmente de SOFTWARE, para que seja &#xa;instalado em 1 (um) &#xfa;nico computador; as instala&#xe7;&#xf5;es em computadores adicionais ter&#xe3;o que ter licen&#xe7;a&#xa; pr&#xe9;via e ajuste financeiro com a LICENCIANTE.&#xa;&#xa;SEGUNDO&#xa;O LICENCIADO poder&#xe1; utilizar os recursos que o &#x201c;SOFTWARE&#x201d; oferece quanto a copiar para a &#xe1;rea de&#xa; transfer&#xea;ncia ou imprimir textos, desde que seja para uso pessoal e n&#xe3;o comercial.&#xa;&#xa;TERCEIRO&#xa;Todo o conte&#xfa;do do &#x201c;SOFTWARE&#x201d; &#xe9; dotado de direitos autorais, sendo de propriedade da LICENCIANTE&#x2026;&#xa; e do Autor &#x2026;, ficando claro que qualquer c&#xf3;pia do &#x201c;SOFTWARE&#x201d; com finalidade comercial &#xe9; pun&#xed;vel pelas&#xa; leis de direitos autorais em vigor. O LICENCIADO n&#xe3;o pode copiar, modificar, alugar, transmitir o conte&#xfa;do&#xa; do &#x201c;SOFTWARE&#x201d; por nenhum meio de telecomunica&#xe7;&#xe3;o existente ou que venha a ser criado, bem como&#xa; deixar o &#x201c;SOFTWARE&#x201d; dispon&#xed;vel em qualquer tipo de Bulletin Boards, ou outro meio de servi&#xe7;o on-line. &#xa;&#xc9; vedada a c&#xf3;pia de qualquer conceito do sistema, assim como a execu&#xe7;&#xe3;o de engenharia reversa.&#xa;&#xa;7. Outras restri&#xe7;&#xf5;es:&#xa;O LICENCIADO n&#xe3;o tem direito, em hip&#xf3;tese alguma, &#xe0; venda, &#xe0; transfer&#xea;ncia, ao aluguel ou cess&#xe3;o, mesmo&#xa;que gratuita, do &#x201c;SOFTWARE&#x201d;.&#xa;&#xa;8. Garantia limitada:&#xa;A LICENCIANTE &#x2026;. garante que o &#x201c;SOFTWARE&#x201d; desempenha suas fun&#xe7;&#xf5;es substancialmente, em&#xa; conformidade com o presente Manual do LICENCIADO.&#xa;&#xa;9. Limita&#xe7;&#xe3;o de responsabilidade:&#xa;Em nenhuma hip&#xf3;tese, a LICENCIANTE &#x2026; ou os seus fornecedores ser&#xe3;o respons&#xe1;veis por quaisquer danos &#xa;(incluindo lucros cessantes, interrup&#xe7;&#xe3;o de neg&#xf3;cios, perda de informa&#xe7;&#xf5;es e outros preju&#xed;zos pecuni&#xe1;rios)&#xa; decorrentes de uso ou da impossibilidade de usar o &#x201c;SOFTWARE&#x201d;, ainda que a LICENCIANTE &#x2026; tenha sido &#xa;alertada quanto &#xe0; possibilidade destes danos. Em nenhuma hip&#xf3;tese, a responsabilidade da LICENCIANTE&#x2026; &#xa;exceder&#xe1; ao valor total pago pelo LICENCIADO.&#xa;&#xa;10. Vig&#xea;ncia:&#xa;Fica o LICENCIADO ciente de que as restri&#xe7;&#xf5;es deste contrato continuar&#xe3;o em pleno vigor, mesmo ap&#xf3;s &#xa;o t&#xe9;rmino da presente cess&#xe3;o de direitos.&#xa;&#xa;11. Rescis&#xe3;o:&#xa;Sem preju&#xed;zo de quaisquer outros direitos, a LICENCIANTE &#x2026; poder&#xe1; rescindir este contrato, caso o &#xa;LICENCIADO n&#xe3;o cumpra com seus termos e condi&#xe7;&#xf5;es. Neste caso, o LICENCIADO dever&#xe1; destruir&#xa; todas as c&#xf3;pias do &#x201c;SOFTWARE&#x201d; e de todos os seus componentes.&#xa;&#xa;12. Foro do contrato:&#xa;Fica eleito, para dirimir d&#xfa;vidas a respeito deste contrato, o foro da Comarca do Estado do &#x2026;, &#xa;declinando-se dos demais, por mais privilegiados que sejam.&#xa;&#xa;Localidade, data e assinatura da LICENCIANTE e do LICENCIADO"/>
+                <Property name="focusable" type="boolean" value="false"/>
+                <Property name="selectedTextColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="33" green="0" red="33" type="rgb"/>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <Component id="btnNext" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="btnCancel" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="ckbAceito" alignment="0" pref="636" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="ckbAceito" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="45" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="btnCancel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnNext" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JCheckBox" name="ckbAceito">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Li e concordo com todas as linforma&#xe7;&#xf5;es citadas"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ckbAceitoActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnCancel">
+          <Properties>
+            <Property name="mnemonic" type="int" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="KeyEvent.VK_C" type="code"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Cancel"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCancelActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnNext">
+          <Properties>
+            <Property name="mnemonic" type="int" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="KeyEvent.VK_N" type="code"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Next"/>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnNextActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

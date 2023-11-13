@@ -163,6 +163,12 @@
 <td align="center">GUI - Telas de Instalação</td>
 <td align="center">2</td>
 </tr>
+<tr>
+<td align="center">13/11</td>
+<td align="center"><a href="https://github.com/jcoghi/Aula_Java_2023-2/tree/main/aula1113">Clique Aqui</a></td>
+<td align="center">GUI - Editor de texto com tela de carregamento</td>
+<td align="center">1</td>
+</tr>
 </tbody>
 </table>
 </div>

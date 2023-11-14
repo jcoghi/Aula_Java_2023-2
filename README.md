@@ -169,6 +169,12 @@
 <td align="center">GUI - Editor de texto com tela de carregamento</td>
 <td align="center">1</td>
 </tr>
+<tr>
+<td align="center">14/11</td>
+<td align="center"><a href="https://github.com/jcoghi/Aula_Java_2023-2/tree/main/aula1114">Clique Aqui</a></td>
+<td align="center">Primeira aula JDBC</td>
+<td align="center">4</td>
+</tr>
 </tbody>
 </table>
 </div>

@@ -181,6 +181,12 @@
 <td align="center">CRUD com Banco de dados</td>
 <td align="center">4</td>
 </tr>
+<tr>
+<td align="center">27/11</td>
+<td align="center"><a href="https://github.com/jcoghi/Aula_Java_2023-2/tree/main/aula1127">Clique Aqui</a></td>
+<td align="center">CRUD com Banco de dados utilizando tabela</td>
+<td align="center">4</td>
+</tr>
 </tbody>
 </table>
 </div>
